@@ -2,8 +2,8 @@
 
 ## Overview:
 
-    1. Experiment with packet construction tools
-    2. Exploit a network service vulnerable to flooding-based denial-of-service
+    1. Experimentation with packet construction tools
+    2. Exploiting a network service vulnerable to flooding-based denial-of-service
 
 ## Network Watchdog
 This projects attacks a network watchdog. This watchdog is responsible for supervising a user-facing service. That service must periodically “kick” the watchdog in order to demonstrate that it is still healthy. Otherwise, the watchdog will terminate that service. The goal here is to force the watchdog to drop a kick, causing it to terminate the supervised service and thus create a denial-of-service (DoS).
